@@ -1,0 +1,39 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  .cell {
+    flex: 1;
+    border: 1px solid #000;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
